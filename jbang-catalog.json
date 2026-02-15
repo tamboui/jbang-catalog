@@ -2,6 +2,9 @@
   "aliases": {
     "demos": {
       "script-ref": "dev.tamboui:tamboui-demos:LATEST",
+      "runtime-options": [
+        "--enable-native-access\u003dALL-UNNAMED"
+      ],
       "dependencies": [
         "dev.tamboui:tamboui-jline3-backend:LATEST",
         "dev.tamboui:tamboui-panama-backend:LATEST"
