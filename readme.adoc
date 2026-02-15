@@ -1,0 +1,10 @@
+# JBangHub Catalog for Tamboui 
+
+image::https://github.com/tamboui/tamboui/raw/main/images/tamboui_logo_horizontal_gradient.svg[Tamboui Logo]
+
+To run TamboUI demos, have https://jbang.dev/download/[jbang installed] and run:
+
+```
+jbang demos@tamboui
+```
+
