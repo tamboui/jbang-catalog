@@ -1,4 +1,10 @@
 {
+  "catalogs": {
+    "tamboui": {
+      "catalog-ref": "https://github.com/tamboui/tamboui/blob/HEAD/jbang-catalog.json",
+      "description": "TamboUI main repo demos"
+    }
+  },
   "aliases": {
     "demos": {
       "script-ref": "dev.tamboui:tamboui-demos:LATEST",
