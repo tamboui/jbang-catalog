@@ -16,7 +16,7 @@
         "dev.tamboui:tamboui-panama-backend:0.1.0"
       ],
       "repositories": [
-        "central-portal-snapshots"
+        "central"
       ],
       "java": "25+"
     }
