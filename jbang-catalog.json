@@ -7,18 +7,18 @@
   },
   "aliases": {
     "demos": {
-      "script-ref": "dev.tamboui:tamboui-demos:LATEST",
+      "script-ref": "dev.tamboui:tamboui-demos:0.1.0",
       "runtime-options": [
         "--enable-native-access\u003dALL-UNNAMED"
       ],
       "dependencies": [
-        "dev.tamboui:tamboui-jline3-backend:LATEST",
-        "dev.tamboui:tamboui-panama-backend:LATEST"
+        "dev.tamboui:tamboui-jline3-backend:0.1.0",
+        "dev.tamboui:tamboui-panama-backend:0.1.0"
       ],
       "repositories": [
         "central-portal-snapshots"
       ],
-      "java": "21+"
+      "java": "25+"
     }
   },
   "templates": {
