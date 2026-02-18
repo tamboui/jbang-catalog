@@ -1,0 +1,37 @@
+# Maven Template for TamboUI Toolkit
+
+This is a minimal Maven project template for creating TamboUI Toolkit applications.
+
+## Requirements
+
+- Java 21 or later
+- Maven 3.6 or later
+
+## Getting Started
+
+1. **Build the project**:
+   ```bash
+   mvn package
+   ```
+
+4. **Run the application**:
+   ```bash
+   mvn exec:java
+   ```
+
+   Or run the executable JAR:
+   ```bash
+   mvn package
+   java -jar target/{baseName}-app-1.0.0-SNAPSHOT.jar
+   ```
+
+   or run it with `jbang run`:
+   ```bash
+   jbang run target/{baseName}-app-1.0.0-SNAPSHOT.jar
+   ```
+
+   The latter has the advantage you can run with `jbang run --debug` to attach a debugger.
+
+## Learn More
+
+- [TamboUI Documentation](https://tamboui.dev)

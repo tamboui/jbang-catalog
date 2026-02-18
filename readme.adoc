@@ -8,3 +8,11 @@ To run TamboUI demos, have https://jbang.dev/download/[jbang installed] and run:
 jbang demos@tamboui
 ```
 
+## Templates
+
+Templates are available for the following build systems:
+
+- Gradle: `jbang init -t gradle@tamboui cool`
+- Maven: `jbang init -t maven@tamboui <project-name>`
+- JBang: `jbang init -t jbang@tamboui <project-name>`
+

@@ -1,0 +1,46 @@
+plugins {
+    java
+    application
+    id("com.gradleup.shadow") version "9.3.1"
+}
+
+group = "com.example"
+version = "{tambouiVersion}"
+
+description = "A minimal TamboUI Toolkit application template for Gradle"
+
+repositories {
+    mavenCentral()
+        // Only needed for snapshot versions
+    /*maven {
+        url = uri("https://central.sonatype.com/repository/maven-snapshots/")
+        mavenContent {
+            snapshotsOnly()
+        }
+    }*/
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+dependencies {
+    val tambouiVersion="{tambouiVersion}"
+    
+    // TamboUI Toolkit - High-level DSL for building TUI applications
+    implementation("dev.tamboui:tamboui-toolkit:$\{tambouiVersion}")
+    // TamboUI Panama Backend - Terminal backend implementation, requiring Java 22+
+    //runtimeOnly("dev.tamboui:tamboui-panama-backend:{tambouiVersion}")
+    // TamboUI JLine3 Backend - Terminal backend implementation
+    runtimeOnly("dev.tamboui:tamboui-jline3-backend:$\{tambouiVersion}")
+}
+
+application {
+    mainClass.set("com.example.{baseName}App")
+}
+
+tasks.withType<JavaCompile>().configureEach {
+    options.encoding = "UTF-8"
+}

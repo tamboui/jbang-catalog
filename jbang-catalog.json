@@ -20,5 +20,46 @@
       ],
       "java": "21+"
     }
+  },
+  "templates": {
+    "jbang": {
+      "file-refs": {
+        "{basename}/{basename}App.java": "templates/jbang/HelloToolkitApp.java.qute",
+        "{basename}/.gitignore": "templates/jbang/.gitignore",
+        "{basename}/README.md": "templates/jbang/README.md"
+      },
+      "properties": {
+        "tambouiVersion": {
+          "default": "0.1.0"
+        }
+      }
+    },
+    "gradle": {
+      "file-refs": {
+        "{basename}/src/main/java/com/example/{basename}App.java": "templates/gradle/HelloToolkitApp.java.qute",
+        "{basename}/build.gradle.kts": "templates/gradle/build.gradle.kts.qute",
+        "{basename}/settings.gradle.kts": "templates/gradle/settings.gradle.kts.qute",
+        "{basename}/README.md": "templates/gradle/README.md.qute",
+        "{basename}/gradle.properties": "templates/gradle/gradle.properties.qute",
+        "{basename}/.gitignore": "templates/gradle/.gitignore"
+      },
+      "properties": {
+        "tambouiVersion": {
+          "default": "0.1.0"
+        }
+      }
+    },
+    "maven": {
+      "file-refs": {
+        "{basename}/src/main/java/com/example/{basename}App.java": "templates/maven/HelloToolkitApp.java.qute",
+        "{basename}/README.md": "templates/maven/README.md.qute",
+        "{basename}/pom.xml": "templates/maven/pom.xml.qute"
+      },
+      "properties": {
+        "tambouiVersion": {
+          "default": "0.1.0"
+        }
+      }
+    }
   }
 }
