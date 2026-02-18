@@ -2,7 +2,7 @@
  * Copyright TamboUI Contributors
  * SPDX-License-Identifier: MIT
  */
-package dev.tamboui;
+package com.example;
 
 import static dev.tamboui.toolkit.Toolkit.*;
 
