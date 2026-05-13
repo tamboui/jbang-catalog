@@ -7,13 +7,13 @@
   },
   "aliases": {
     "demos": {
-      "script-ref": "dev.tamboui:tamboui-demos:0.2.0",
+      "script-ref": "dev.tamboui:tamboui-demos:0.3.0",
       "runtime-options": [
         "--enable-native-access\u003dALL-UNNAMED"
       ],
       "dependencies": [
-        "dev.tamboui:tamboui-jline3-backend:0.2.0",
-        "dev.tamboui:tamboui-panama-backend:0.2.0"
+        "dev.tamboui:tamboui-jline3-backend:0.3.0",
+        "dev.tamboui:tamboui-panama-backend:0.3.0"
       ],
       "repositories": [
         "central"
@@ -30,7 +30,7 @@
       },
       "properties": {
         "tambouiVersion": {
-          "default": "0.2.0"
+          "default": "0.3.0"
         }
       }
     },
@@ -45,7 +45,7 @@
       },
       "properties": {
         "tambouiVersion": {
-          "default": "0.2.0"
+          "default": "0.3.0"
         }
       }
     },
@@ -57,7 +57,7 @@
       },
       "properties": {
         "tambouiVersion": {
-          "default": "0.2.0"
+          "default": "0.3.0"
         }
       }
     }
