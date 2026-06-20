@@ -12,7 +12,7 @@
         "--enable-native-access\u003dALL-UNNAMED"
       ],
       "dependencies": [
-        "dev.tamboui:tamboui-jline3-backend:0.3.0",
+        "dev.tamboui:tamboui-jline3-backend:0.4.0",
         "dev.tamboui:tamboui-panama-backend:0.3.0"
       ],
       "repositories": [
